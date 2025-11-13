@@ -52,3 +52,4 @@ const UserSchema = new mongoose.Schema(
 const UserModel = mongoose.models.User || mongoose.model("User", UserSchema); // users
 
 export default UserModel;
+// another code to know do you understand this command

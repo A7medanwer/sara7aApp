@@ -3,6 +3,7 @@ import userRouter from "./Modules/user/user.controller.js";
 import messageRouter from "./Modules/message/message.controller.js";
 import connectDB from "./DB/connectionDB.js";
 import glopalErorrHandelar from "./Utils/errorHandelar.utils.js";
+import upload from './path/to/cloudinaryConfig.js';
 const bootstrap = async (app, express) => {
   app.use(express.json());
   await connectDB();

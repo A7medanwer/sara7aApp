@@ -78,3 +78,13 @@ export const logIn = async (req, res, next) => {
     data: { checkUser },
   });
 };
+
+//----------------------------
+export const upload = async (req, res, next) =>{
+  
+    // req.file contains the uploaded file info
+    res.json({
+        message: 'File uploaded successfully!',
+        file: req.file
+    });
+}
