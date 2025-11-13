@@ -7,3 +7,4 @@ export const cloudinaryConfig = () => {
 });
 return cloudinary;
 };
+// the streak of commit on sara7aApp 2
